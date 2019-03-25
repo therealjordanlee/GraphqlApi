@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2018.3/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.3/system/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_GraphqlApi.607264674.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="GraphqlApi" t="IncludeRecursive">
+        <e p="Controllers" t="Include">
+          <e p="GithubController.cs" t="Include" />
+          <e p="GraphQlController.cs" t="Include" />
+        </e>
+        <e p="GraphqlApi.csproj" t="IncludeRecursive" />
+        <e p="GraphqlTypes" t="Include">
+          <e p="GithubUserType.cs" t="Include" />
+        </e>
+        <e p="MapperProfiles" t="Include">
+          <e p="GithubOrganizationProfile.cs" t="Include" />
+          <e p="GithubUserProfile.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="GithubOrganization.cs" t="Include" />
+          <e p="GithubUser.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Queries" t="Include">
+          <e p="GithubUserQuery.cs" t="Include" />
+          <e p="GraphQlQuery.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="GithubService.cs" t="Include" />
+          <e p="IGithubService.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="GraphqlApi.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="GraphqlApi.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
