@@ -11,6 +11,7 @@
         </e>
         <e p="GraphqlApi.csproj" t="IncludeRecursive" />
         <e p="GraphqlTypes" t="Include">
+          <e p="GithubOrganizationType.cs" t="Include" />
           <e p="GithubUserType.cs" t="Include" />
         </e>
         <e p="MapperProfiles" t="Include">
@@ -26,7 +27,7 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Queries" t="Include">
-          <e p="GithubUserQuery.cs" t="Include" />
+          <e p="GithubQuery.cs" t="Include" />
           <e p="GraphQlQuery.cs" t="Include" />
         </e>
         <e p="Services" t="Include">

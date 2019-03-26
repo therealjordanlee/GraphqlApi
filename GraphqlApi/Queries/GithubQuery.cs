@@ -6,9 +6,9 @@ using GraphQL.Types;
 
 namespace GraphqlApi.Queries
 {
-    public class GithubUserQuery : ObjectGraphType
+    public class GithubQuery : ObjectGraphType
     {
-        public GithubUserQuery(IGithubService githubService)
+        public GithubQuery(IGithubService githubService)
         {
 
             Field<GithubUserType>(
@@ -19,6 +19,16 @@ namespace GraphqlApi.Queries
                 {
                     var login = context.GetArgument<string>("login");
                     return githubService.GetUserAsync(login);
+                }
+            );
+            
+            Field<GithubOrganizationType>(
+                name: "githubOrganizationName",
+                arguments: new QueryArguments(new QueryArgument<StringGraphType> {Name = "githubOrganizationName"}),
+                resolve: context =>
+                {
+                    var orgName = context.GetArgument<string>("githubOrganizationName");
+                    return githubService.GetRepositoryAsync(orgName);
                 }
             );
         }

@@ -19,7 +19,7 @@ namespace GraphqlApi.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] GraphQlQuery query)
         {
-            var schema = new Schema {Query = new GithubUserQuery(_githubService)};
+            var schema = new Schema {Query = new GithubQuery(_githubService)};
             var result = await new DocumentExecuter().ExecuteAsync(x =>
             {
                 x.Schema = schema;
